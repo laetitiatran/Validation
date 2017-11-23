@@ -1,0 +1,11 @@
+la boucle if vérifie si il n'y a pas de Vagrantfile déjà existant. 
+Si oui elle renvoie un message sinon elle en crée un.
+
+ensuite on installe les mises à jour ainsi que la virtualbox.
+
+On demande si l'utilisateur souhaite mettre une box avec xenial64 ou trusty64. 
+Lorsque l'utilisateur choisit le numero 1 ou 2 alors la box change et remplace par le choix écrit par l'utilisateur.
+
+Lorsque l'utilisateur n'écrit pas les bons chiffres alors on lui renvoie un message d'erreur.
+
+On change automatiquement le config.vm.synced\folders mais le "#" n'est pas enlevé (car je n'ai pas réussi)      
